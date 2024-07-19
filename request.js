@@ -13,7 +13,7 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.0/firebase
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "process.env.APIKEY",
+  apiKey: "process.env.API_KEY",
   authDomain: "192.168.86.231:5500",
   projectId: "ths-chat",
   storageBucket: "ths-chat.appspot.com",
