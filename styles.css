@@ -1,0 +1,112 @@
+#content{
+    /* border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: #ffffff41;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    height: auto;
+    width: 80vw;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px; */
+
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+body{
+    /* background-image: url(jonny-gios-RQQRZ0G296E-unsplash.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat;
+    color:black;
+    background-color: #e0e0e0;
+}
+
+*{
+    font-family: Montserrat;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    stroke: none;
+    border-width: 0;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    background-color: none;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#message-input, #name-input, #pwd-input {
+    background-color: #ffffff00;
+    /* border-radius: 50px; */
+    border-radius: 5px;
+    padding: 15px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+#message-input:focus {
+    background-color: #ffffff00;
+    /* border-radius: 50px; */
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+                inset -20px -20px 60px #ffffff;
+}
+
+#name-input:focus {
+    background-color: #ffffff00;
+    /* border-radius: 50px; */
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+                inset -20px -20px 60px #ffffff;
+}
+
+#message-input{
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 15px;
+    margin-left:5px;
+    margin-top:-10px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+button:active{
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+                inset -20px -20px 60px #ffffff;
+}
+
+name-div, minput-div{
+    display: inherit;
+    flex-direction: row;
+}
+
+label{
+    z-index: 200;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 10px;
+}

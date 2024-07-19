@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Harker School Chat</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="content">
+    <h1>The Harker School Chat</h1>
+    <h2>Note: You MUST sign in to chat</h2>
+    <button id="sign-in-button">Sign in with Google</button> <button onclick="signOutUser()">Sign Out</button>
+    <form>
+      <div id="minput-div">
+        <label for="message-input">Message</label>
+        <br>
+        <input type="text" id="message-input" placeholder="Enter Message" required="true">
+      </div>
+      <br>
+      <div id="name-div">
+        <label id='name-label' for="name-input">Name</label>
+        <input type="text" id="name-input" placeholder="Enter Name">
+      </div>
+      <button id='sendMessageButton' type="button" onclick="sendMessage()">Send</button>
+    </form>
+    <div id="message-div"></div>
+  </div>
+  <script type="module" src="request.js" defer></script>  
+</body>
+
+</html>
